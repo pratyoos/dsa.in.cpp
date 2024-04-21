@@ -11,8 +11,7 @@ class Company{
         }
 };
 
-//bike inherits from company
-//this is a proper way to inherit from a class
+//bike inherits from company class
 
 class Bike: public Company{
     public:

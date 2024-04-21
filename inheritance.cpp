@@ -3,9 +3,7 @@ using namespace std;
 class Company{
     public:
         string brand;
-        Company(string x){
-            brand = x;
-        }
+        Company(string x):brand(x){};
         void honk(){
             cout << "Tuut, tuut!" << endl;
         }
@@ -16,9 +14,7 @@ class Company{
 class Bike: public Company{
     public:
         string model;
-        Bike(string x, string y):Company(x){
-            model = y;
-        }
+        Bike(string x, string y):Company(x),model(y){};
 };
 
 int main(){

@@ -5,10 +5,7 @@ class rectangle {
         int length;
         int breadth;
 
-        rectangle(int len, int brth){ 
-            length = len;
-            breadth = brth;
-        }
+        rectangle(int len, int brth): length(len), breadth(brth){}
         
         int getArea(){
             return length*breadth;

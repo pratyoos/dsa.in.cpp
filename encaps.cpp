@@ -5,6 +5,7 @@ class employee{
         int salary;
 
     public:
+        //using getter setter to access private
         //getter
         void setSalary(int s){
             salary = s;

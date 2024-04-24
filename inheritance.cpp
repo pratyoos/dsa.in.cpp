@@ -10,6 +10,7 @@ class Company{
 };
 
 //bike inherits from company class
+//multilevel
 
 class Bike: public Company{
     public:

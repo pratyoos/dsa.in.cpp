@@ -19,6 +19,6 @@ int main(void)
 	int result = search(arr, n, x);
 	(result == -1) ? 
 	cout << "Element is not present in array" : 
-	cout << "Element is present at index " << result;
+	cout << "Element is present at index " << result << endl;
 	return 0;
 }

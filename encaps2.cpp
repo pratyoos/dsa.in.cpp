@@ -17,12 +17,10 @@ int main(){
     rectangle r2(4,5);
     rectangle r3(6,7);
     rectangle r4(8,9);
-    rectangle r5(10,11);
 
     cout << r1.getArea() << endl;
     cout << r2.getArea() << endl;
     cout << r3.getArea() << endl;
     cout << r4.getArea() << endl;
-    cout << r5.getArea() << endl;
     return 0;
 }
